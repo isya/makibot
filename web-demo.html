@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <title>makibot（ブラウザ版）</title>
+  <link href="webbot-style.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width">
+
+</head>
+<body id="body">
+  <header class="header">
+    <h1>@Makibot</h1>
+  </header>
+  <div id="chatWindow">
+    <dl id="chat">
+
+    </dl>
+  </div>
+
+  <div class="chat-form-wrapper">
+    <form name="chatForm" id="chatForm" onsubmit="return false;">
+      <label>
+        <input type="text" name="chatText" id="chatText" placeholder="テキストを入力"  onkeydown="go();">
+        <input id="submitBtn" name="submitBtn" type="button" value="submit" class="btn btn-large btn-primary">
+      </label>
+    </form>
+    <p>
+      <small>"help"でコマンド一覧がでます</small>
+    </p>
+  </div>
+
+  <script src="webbot-script.js"></script>
+</body>
+</html>

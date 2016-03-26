@@ -1,0 +1,71 @@
+body {
+    font-size: 90%;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #fff;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 120%;
+    margin: 0;
+}
+
+.chat-form-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+    color: #333;
+    z-index: 2;
+}
+
+.chat-form-wrapper p {
+    margin: 8px;
+    color: #777;
+}
+
+#chatForm {
+    margin: 8px;
+}
+
+#chatText {
+    width: 100%;
+    padding: 5px;
+    font-size: 100%;
+    border: 2px solid #ccc;
+    border-radius: .2em;
+}
+
+#chatText:focus {
+    outline: none;
+}
+
+#submitBtn {
+    display: none;
+}
+
+#chatWindow {
+    padding: 50px 8px 78px;
+}
+
+#chat {
+    margin: 0;
+    font-size: 95%;
+}
+
+.js-user-dt {
+    font-weight: bold;
+}
