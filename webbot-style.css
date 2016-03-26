@@ -1,6 +1,7 @@
 body {
     font-size: 90%;
     margin: 0;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
 .header {
@@ -27,7 +28,6 @@ h1 {
     width: 100%;
     background-color: #f5f5f5;
     border-top: 1px solid #ccc;
-    font-family: 'Lato', 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
     color: #333;
     z-index: 2;
 }
