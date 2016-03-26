@@ -99,6 +99,8 @@ function showBotText() {
             var BotSerif = serifIdol[result];
             break;
         case /help/i.test(chatText):
+            var BotSerif = " ";
+
             var helpDd = document.createElement("dd");
             helpDd.setAttribute("class", "js-bot-helpdd");
             helpDd.innerHTML = helpText;
